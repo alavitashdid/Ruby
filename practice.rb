@@ -1,5 +1,7 @@
-name = "MIXI"
-puts "Hello, #{name}!"
+score = 80
 
-age = 20
-puts age
+if score >= 60
+  puts "合格！"
+else
+  puts "不合格"
+end
